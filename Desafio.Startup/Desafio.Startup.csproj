@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Desafio.Startup-C21A2BE9-FC10-44DE-A7B1-5839A3BC0B14</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Desafio.Infraestruture.IOC\Desafio.Infraestruture.IOC.csproj" />
+    <ProjectReference Include="..\Desafio.Infraestruture.Settings\Desafio.Infraestruture.Settings.csproj" />
+  </ItemGroup>
+</Project>
